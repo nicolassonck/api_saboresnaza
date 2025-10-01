@@ -109,6 +109,10 @@ app.delete("/api/produtos/:id", async (req, res) => {
     }
 });
 
+// DESAFIO: "bloqueio" evitar que cadastre o produto com o mesmo nome no POST e PUT
+
+
+
 // =========================
 // Iniciar o servidor
 // =========================
